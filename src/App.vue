@@ -1,10 +1,14 @@
 <template>
   <div id="app">
     <div id="nav">
-      <router-link to="/">Home</router-link> |
+      <!-- <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link> |
       <router-link to="/cGetSet">GetSet</router-link> |
-      <router-link to="/watch">Watch</router-link>
+      <router-link to="/watch">Watch</router-link> | -->
+      <router-link to="/for">For</router-link> |
+      <router-link to="/filter">Filter</router-link> |
+      <router-link to="/cwithvfor">Cvf</router-link> |
+      <router-link to="/examples">Eg</router-link>
     </div>
     <router-view/>
   </div>

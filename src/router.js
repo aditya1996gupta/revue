@@ -30,6 +30,26 @@ export default new Router({
       path: '/watch',
       name: 'watch',
       component: () => import(/* webpackChunkName: "watch" */ './views/watch.vue')
+    },
+    {
+      path: '/for',
+      name: 'for',
+      component: () => import(/* webpackChunkName: "for" */ './views/for.vue')
+    },
+    {
+      path: '/filter',
+      name: 'filter',
+      component: () => import(/* webpackChunkName: "filter" */ './views/filter.vue')
+    },
+    {
+      path: '/cwithvfor',
+      name: 'cwithvfor',
+      component: () => import(/* webpackChunkName: "cwithvfor" */ './views/cwithvfor.vue')
+    },
+    {
+      path: '/examples',
+      name: 'examples',
+      component: () => import(/* webpackChunkName: "examples" */ './views/examples.vue')
     }
   ]
 })

@@ -1,8 +1,8 @@
 <template>
   <div class ="example">
-  <p>Original message: "{{ message }}"<span>..real meassge</span></p>
+  <!-- <p>Original message: "{{ message }}"<span>..real meassge</span></p>
   <p>Computed reversed message: "{{ reversedMessage }}"<span>..using computed</span></p>
-  <p>Reversed message: "{{ reverseMessage() }}"<span>..using method</span></p>
+  <p>Reversed message: "{{ reverseMessage() }}"<span>..using method</span></p> -->
   </div>
 </template>
 
