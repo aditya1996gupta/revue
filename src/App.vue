@@ -5,14 +5,31 @@
       <router-link to="/about">About</router-link> |
       <router-link to="/cGetSet">GetSet</router-link> |
       <router-link to="/watch">Watch</router-link> | -->
-      <router-link to="/for">For</router-link> |
+      <!-- <router-link to="/for">For</router-link> |
       <router-link to="/filter">Filter</router-link> |
-      <router-link to="/cwithvfor">Cvf</router-link> |
-      <router-link to="/examples">Eg</router-link>
+      <router-link to="/cwithvfor">Cvf</router-link> | -->
+      <router-link to="/skillbar">skillbar</router-link> |
+      <router-link to="/items">items</router-link>
     </div>
     <router-view/>
   </div>
 </template>
+
+<script>
+import items from './components/Items'
+
+export default {
+  components: {
+    '': items
+  },
+  name: 'app',
+  data () {
+    return {
+      msg: 'My Fancy T-Shirt Store'
+    }
+  }
+}
+</script>
 
 <style>
 #app {

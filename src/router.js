@@ -47,9 +47,14 @@ export default new Router({
       component: () => import(/* webpackChunkName: "cwithvfor" */ './views/cwithvfor.vue')
     },
     {
-      path: '/examples',
-      name: 'examples',
-      component: () => import(/* webpackChunkName: "examples" */ './views/examples.vue')
+      path: '/Items',
+      name: 'Items',
+      component: () => import(/* webpackChunkName: "items" */ './components/Items.vue')
+    },
+    {
+      path: '/skillbar',
+      name: 'skillbar',
+      component: () => import(/* webpackChunkName: "skillbar" */ './views/skillbar.vue')
     }
   ]
 })
