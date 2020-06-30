@@ -2,7 +2,7 @@
   <div class="home">
     <img alt="Vue logo" src="../assets/logo.png">
     <HelloWorld msg="Welcome to Your Vue.js App"/>
-    <h1>Fundamental of vue get started</h1>
+    <h1>Get started with demo</h1>
   </div>
 </template>
 
